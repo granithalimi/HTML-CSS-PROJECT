@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans:wght@700&family=Ubuntu:wght@700&display=swap');
+
+
+body{
+    background-image: url(../img/background-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+:root{
+    --main-c: #ee3183;
+    --secondary-c: #ff2f4d;
+    --h1-c: #2d3a4b;
+    --grey:#918f92;
+    --footer:#171e27;
+}
